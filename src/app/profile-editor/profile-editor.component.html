@@ -1,0 +1,9 @@
+<p>profile-editor works!</p>
+<label for="name">Name: </label>
+<input id="name" type="text" [formControl]="fname">
+
+<label for="name">LName: </label>
+<input id="name" type="text" [formControl]="lname">
+<button (click)="display()">Display</button>
+
+{{fname.value}}
